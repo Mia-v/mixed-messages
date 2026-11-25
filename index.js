@@ -25,6 +25,6 @@ const makeMessage = (obj) => {
 
 let printQuotes = makeMessage(wiseQuotes);
 
-for(let i=0; i<r.length; i++){
-  setTimeout(() => {console.log(r[i])}, 2000*i)
+for(let i=0; i<printQuotes.length; i++){
+  setTimeout(() => {console.log(printQuotes[i])}, 2000*i)
 }
